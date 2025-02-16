@@ -15,6 +15,17 @@ print(f"Hi {name.strip()}!")  # Print the greeting, removing any leading/trailin
 
 
 # 3. Read first two numbers from numbers.txt and sum them
+# Create numbers.txt if it doesn't exist, and write the numbers to it.
+try:
+    with open("numbers.txt", "r") as in_file:  #Try to open it.
+      pass #If it opens, do nothing
+except FileNotFoundError:
+  with open("numbers.txt", 'w') as out_file:
+    out_file.write("17\n")
+    out_file.write("42\n")
+    out_file.write("400\n")
+
+
 
 with open("numbers.txt", "r") as in_file:
     first_number = int(in_file.readline())  # Read the first line and convert to integer
