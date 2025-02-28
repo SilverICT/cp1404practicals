@@ -41,9 +41,9 @@ def check_access(user_input):
                  'StartServer', 'bob']
 
     if user_input in usernames:
-        print("Access granted")  # Username is authorized
+        print("Access granted.")  # Username is authorized
     else:
-        print("Access denied")  # Username is not authorized
+        print("Access denied.")  # Username is not authorized
 
 
 main()
