@@ -4,12 +4,12 @@ State names in a dictionary
 File needs reformatting
 
 Work done:
-Reformat Code or use the keyboard shortcut (Command+option+L)
+Reformat code use the keyboard shortcut (Command+option+L)
 Use .strip() .upper() for case-insensitive input
 Use try, except for "Easier to Ask Forgiveness than Permission" (EAFP)
 """
 
-# TODO: Reformat this file so the dictionary code follows PEP 8 convention
+#Reformate to match PEP 8
 CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                 "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania", "SA": "South Australia"}
 
