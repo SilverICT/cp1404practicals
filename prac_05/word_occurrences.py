@@ -51,7 +51,7 @@ def main():
 
         # Ask for new input
         text = input("Enter a string of text (or press Enter to quit): ")
-
+    #close the program
     print("See u next time")
 
 
