@@ -12,7 +12,7 @@ def read_data(filename):
     # Open the file with the correct encoding to handle the BOM
     with open(filename, "r", encoding="utf-8-sig") as in_file:
         for line in in_file:
-            # Skip the header line
+            # Skip the headerline
             if not line.startswith("Year"):
                 columns = line.strip().split(",")
                 champions_data.append(columns)
